@@ -2,7 +2,7 @@
 
 Dieses Programm ermöglicht es, gezielt Fragen zu einem PDF-Dokument zu stellen und erhält darauf präzise, KI-generierte Antworten. Es nutzt eine Vektordatenbank, um relevante Textabschnitte aus dem PDF zu finden, und kombiniert diese mit einem Sprachmodell für die Antwortgenerierung.
 
-1. Muss vector.py ausgeführt werden, um die Datenbank zu generieren
+1. Muss vector.py ausgeführt werden, um die Datenbank zu generieren.
 2. Muss main.py ausgeführt werden.
 
 ## Stärken

@@ -7,7 +7,7 @@ from langchain_core.prompts import ChatPromptTemplate
 db_location = "./chroma_db"
 embeddings = OllamaEmbeddings(model="mxbai-embed-large")
 db = Chroma(persist_directory=db_location, embedding_function=embeddings)
-retriever = db.as_retriever() ## Retriever erstellen
+retriever = db.as_retriever() # Retriever erstellen
 
 model = OllamaLLM(model="llama3.2")
 
